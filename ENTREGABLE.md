@@ -415,8 +415,9 @@ ProyectoDjango_11/
 
 ### 9.3. Observaciones y pendientes
 
-- **No hay repositorio Git inicializado** en esta carpeta, así que no se creó rama ni se hizo commit/push.
-  El paso 12 de la guía (subir al repositorio del equipo) queda pendiente del repositorio real.
+- **Repositorio**: el proyecto se subió a `https://github.com/Jamestecsup/ProyectoDjango_11` en la rama `main`
+  (commit `542354e`). `node_modules/`, `dist/` y `coverage/` quedan fuera por `.gitignore`. La subida la pidió
+  expresamente la persona dueña del repositorio, porque el contrato del agente prohíbe hacer `git push` por su cuenta.
 - **Capturas**: la aplicación se levantó con `npm run dev` en `http://localhost:5173` y se capturó con Chrome en
   modo headless (sin ventana visible): carga (`07-cargando`), bandeja completa (`01-app-cargada`), búsqueda
   (`02-buscador`), contador tras aprobar (`03-contador`), error con `?fail=1` (`04-error`), ejecución R2 detenida
